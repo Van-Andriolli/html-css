@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        background-color: rgb(90, 78, 53);
+    }
+
+    header{
+        background-color: lightgray;
+        margin: 0px;
+    }
+
+    header > h1{
+        margin: 0px;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    header > a{
+        padding: 10px;
+        text-decoration: none;
+    }
+
+    header > a:hover{
+        color: rgb(158, 158, 250);
+    }
+
+    main{
+        background-color: rgb(133, 114, 74);
+        padding-left: 20px;
+        height: 300px;
+        margin: 0px;
+    }
+
+    footer{
+        background-color: rgb(53, 53, 53);
+        height: 150px;
+        margin: 0px;
+    }
+
+    footer > p{
+        text-align: center;
+        color: white;
+        padding-top: 75px;
+    }
+
+    #bola{
+            background-color: aliceblue;
+            width: 100px;
+            height: 100px;
+            margin: 10px auto;
+            border-radius: 50%;
+            box-shadow: inset 10px 10px 10px 20px rgba(218, 121, 209, 0.459);
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        /*
+        #bola:hover{
+            animation: none;
+        }
+        @keyframes float{
+            0%{
+                transform: translateY(0);
+            }
+            50%{
+                transform: translateY(-25px);
+            }
+            100%{
+                transform: translateY(0);
+            }
+        }
+        */
+</style>
+<body>
+    <header>
+        <h1>Estrutura de um site</h1>
+        <a href="#">Botão</a>
+        <a href="#">Botão</a>
+        <a href="#">Botão</a>
+        <a href="#">Botão</a>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2>HTML</h2>
+                <aside>
+                    <p>Hipertext Markup Langue (Linguagem de Marcação de Hipertexto)</p>
+                </aside>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>CSS</h2>
+                <aside>
+                    <p>Cascading Style Sheets (Folhas de Estilo em Cascatas)</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Rodapé</p>
+    </footer>
+    
+    <!-- <div id="bola">
+
+    </div> -->
+
+</body>
+</html>
