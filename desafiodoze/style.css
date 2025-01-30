@@ -58,6 +58,14 @@ section > pre{
     white-space: pre-line;
 }
 
+section#img1{
+    background-image: url(imagens/background001.jpg);
+}
+
+section#img2{
+    background-image: url(imagens/background002.jpg);
+}
+
 footer{
     background-color: rgb(87, 87, 87);
     height: 100px;
