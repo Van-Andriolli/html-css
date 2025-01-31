@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table{
+        border-collapse: collapse;
+        width: 700px;
+        border: 3px solid black;
+    }
+    td, th{
+        border: 2px solid black;
+        padding: 5px;
+        text-align: center;
+    }
+    .padrao{
+        background-color: rgb(122, 199, 7);
+        color: white;
+        
+    }
+    th.padrao{
+        text-align: left;
+    }
+</style>
+<body>
+    <h1>Desafio 02</h1>
+    <table>
+        <thead class="padrao">
+            <tr>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr>
+                <th>Nota 1</th>
+                <th>Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="padrao">
+                <th colspan="4" class="padrao">Média em exatas</td>
+                <td>0.0</td>
+            </tr> <!--Exatas-->
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>Português</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Português</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr class="padrao">
+                <th colspan="4" class="padrao">Média em humanas</td>
+                <td>0.0</td>
+            </tr> <!--Humanas-->
+        </tbody>
+    </table>
+</body>
+</html>
